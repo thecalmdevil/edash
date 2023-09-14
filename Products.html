@@ -92,3 +92,44 @@
         }
 
         /* Animation styles (same as home page) */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Products - Sleek Web Application</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h1 class="fade-in">Our Products</h1>
+        <div class="product fade-in">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Description of Product 1 goes here.</p>
+            <p>Price: $49.99</p>
+        </div>
+        <div class="product fade-in">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Description of Product 2 goes here.</p>
+            <p>Price: $59.99</p>
+        </div>
+        <!-- Add more product listings here -->
+    </div>
+    <footer>
+        &copy; 2023 Sleek Web Application
+    </footer>
+</body>
+</html>
