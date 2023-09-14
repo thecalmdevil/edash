@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrepreneur Dashboard</title>
+    <title>Sleek Web Application</title>
     <style>
         /* Global styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
         }
@@ -17,8 +17,8 @@
         header {
             background-color: #333;
             color: #fff;
-            padding: 10px 0;
             text-align: center;
+            padding: 20px 0;
         }
 
         /* Navigation styles */
@@ -45,6 +45,7 @@
 
         h1 {
             font-size: 24px;
+            margin-bottom: 20px;
         }
 
         p {
@@ -73,11 +74,21 @@
             text-align: center;
             padding: 10px 0;
         }
+
+        /* Animation styles */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Entrepreneur Dashboard</h1>
+        <h1>Sleek Web Application</h1>
     </header>
     <nav>
         <a href="#">Home</a>
@@ -86,12 +97,12 @@
         <a href="#">Contact</a>
     </nav>
     <div class="container">
-        <h1>Welcome, Entrepreneur!</h1>
-        <p>This is your dashboard where you can manage your business efficiently.</p>
-        <a href="#" class="btn">View Dashboard</a>
+        <h1 class="fade-in">Welcome to our Minimalist Web App</h1>
+        <p class="fade-in">Experience the simplicity and elegance of our application.</p>
+        <button class="btn fade-in">Get Started</button>
     </div>
     <footer>
-        &copy; 2023 Entrepreneur Dashboard
+        &copy; 2023 Sleek Web Application
     </footer>
 </body>
 </html>
